@@ -45,7 +45,8 @@
 
 .input-area:not(select):focus {
   background-color: #fff;
-  outline: 2px solid rgba(166, 236, 236, .3);
+  box-shadow: 0 0 0 2px rgba(1, 191, 189, .1);/* outineでもできるが見本はこうなってる */
+  /* outline: 2px solid rgba(166, 236, 236, .3); */
 }
 
 .label-text {
@@ -263,7 +264,7 @@
   border-bottom: 2px solid #d9d9d9;
 }
 
-.select-area > .input-area {
+.select-area .input-area {
   margin-top: 0;
 }
 
